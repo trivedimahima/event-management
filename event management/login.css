@@ -1,0 +1,75 @@
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;
+  }
+  .signinbox{
+      width: 320px;
+      height: 420px;
+      background: #000;
+      color: #fff;
+      margin: 10em 34em;
+      
+      position: absolute;
+      transform: ranslate(-50%, -50%);
+      box-sizing: border-box;
+      padding: 70px 30px;
+  }
+  .signinbox h1{
+      margin-top: 0;
+      padding: 0px;
+      text-align: center;
+      font-size: 40px;
+   }
+   .signinbox p{
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+   }
+  .signinbox input{
+      width: 100%;
+       margin-bottom: 20px;
+  
+  }
+  .signinbox input[type="text"], input[type="password"]
+  {
+      border: none;
+      border-bottom: 1px solid #fff; 
+      background: transparent; 
+      outline: none;
+       height: 40px; 
+       color:#fff;
+       font-size: 16px;
+  }
+  .signinbox input[type="submit"]
+  {
+  border:none;
+  outline:none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size:18px;
+  border-radius: 20px;
+  }
+  .signinbox input[type="submit"]:hover
+  {
+      cursor: pointer; 
+      background:#ffc107;
+      color:#000;
+  
+  }
+  .signinbox a{
+      text-decoration: none;
+      font-size: 12px;
+      line-height: 20px;
+      color: darkgray;
+  }
+  .signinbox a:hover{
+      color: #ffc107;
+  }
+  .d-flex li a{
+font-size: 50px;
+color: #000;
+  }
+  
